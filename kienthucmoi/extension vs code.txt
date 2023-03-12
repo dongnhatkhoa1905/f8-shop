@@ -1,0 +1,8 @@
+cài đặt vs code extension
+
+live server
+live server review >>> view>command palette... hiển thị trình duyệt bên trong vs code
+auto rename tag > tự động sửa lại  tên thẻ khi sửa 1 thẻ mở hay the đóng 
+html to css autocompletion >> gọi ý id class
+hightlight matching Tag >> hightlight lên thẻ mở thì thẻ đóng cũng duovwjd hight 
+

@@ -1,0 +1,51 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #756F6E;
+    --primary-color: #EE4D2D;
+}
+
+/* animation */
+
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'roboto',sans-serif;
+}
+
+.grid {
+    width: 1200px;
+    min-width: 100%;
+    margin: 0, auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* button style */
+
+.btn {
+    min-width: 142px;
+    height: 36px;
+    text-decoration: none;
+    border-radius: 2px;
+    border: none;
+    font-size: 1.4rem;
+
+}
+
+.btn.btn--primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}

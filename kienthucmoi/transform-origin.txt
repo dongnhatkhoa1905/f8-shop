@@ -1,0 +1,5 @@
+transform-origin
+góc biến đổi tâm quay áp dụng cho animation
+ khi đối tượng ẩn hiện tập trung vào
+ một điểm ẩn hiện được cài đặt
+https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin
