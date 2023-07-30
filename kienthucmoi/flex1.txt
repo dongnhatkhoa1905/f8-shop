@@ -1,0 +1,26 @@
+Giá trị "flex: 1" trong CSS là một viết tắt ngắn gọn của 3 thuộc tính 
+flex-basis, 
+flex-grow và flex-shrink với giá trị tương ứng là 0, 1 và 1.
+
+flex-basis xác định kích thước cơ bản của
+phần tử flex trên trục chính (theo đơn vị đo lường như px, em, %...).
+
+flex-grow xác định tỉ lệ tăng trưởng của phần tử flex trong một bố cục linh hoạt.
+ Giá trị 1 cho flex-grow có nghĩa là phần tử flex sẽ mở rộng với 
+tỉ lệ bằng nhau với các phần tử flex khác trong cùng một container.
+
+flex-shrink xác định tỉ lệ co lại của phần tử flex trong một bố cục linh hoạt. 
+Giá trị 1 cho flex-shrink có nghĩa là phần tử flex sẽ co lại với tỉ lệ bằng 
+nhau với các phần tử flex khác trong cùng một container.
+
+Khi sử dụng giá trị "flex: 1", phần tử flex sẽ được mở rộng để đầy đủ không gian 
+trên trục chính của container, và sẽ co lại với tỉ lệ bằng nhau nếu không đủ không gian trên trục chính.
+
+Ví dụ, để thiết lập phần tử flex với giá trị "flex: 1", bạn có thể sử dụng mã lệnh sau:
+
+.item {
+  flex: 1;
+}
+Trong ví dụ này, phần tử có lớp .item sẽ được thiết lập để sử dụng giá trị 
+"flex: 1", tức là phần tử sẽ được mở rộng để đầy đủ không gian trên trục chính của container, 
+và sẽ co lại với tỉ lệ bằng nhau nếu không đủ không gian trên trục chính.

@@ -1,0 +1,13 @@
+{
+    "folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../responsive/resonsive layout"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "f8-shop"
+    }
+}

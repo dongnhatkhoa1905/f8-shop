@@ -1,0 +1,4 @@
+thuộc tính z-index chỉ có tác dụng đối với các
+ phần tử có vị trí được định nghĩa (position) là relative,
+ absolute hoặc fixed. Nếu một phần tử không có vị trí được định nghĩa,
+ thì thuộc tính z-index sẽ không có tác dụng đối với nó.

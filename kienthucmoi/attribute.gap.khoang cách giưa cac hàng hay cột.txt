@@ -1,0 +1,3 @@
+attribute gap
+
+xác định khoảng cách giữa các cột hoặc các hàng trong flexlox

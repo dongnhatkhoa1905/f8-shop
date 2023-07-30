@@ -1,0 +1,21 @@
+tag a 
+Thẻ <a> trong CSS là một thẻ phổ biến được sử dụng để tạo liên kết trên trang web. 
+Ngoài ra, thẻ <a> cũng có một số tính chất khác trong CSS:
+
+Màu sắc: Bạn có thể sử dụng thuộc tính color để thiết lập màu sắc cho văn bản trong thẻ <a>. 
+Mặc định, các liên kết có màu xanh lá cây, nhưng bạn có thể thay đổi màu sắc bằng cách sử dụng CSS.
+
+Đường gạch chân: Các liên kết trên trang web thường được gạch chân để trông rõ ràng hơn. 
+Bạn có thể sử dụng thuộc tính text-decoration và thiết lập giá trị underline để hiển thị đường gạch chân cho các liên kết.
+
+Hover: Khi người dùng di chuột qua một liên kết, bạn có thể thay đổi màu sắc hoặc đường 
+gạch chân của liên kết bằng cách sử dụng pseudo-class :hover. Điều này giúp người dùng 
+biết được liên kết đang được chỉ trỏ và có thể nhấp vào để chuyển tới trang khác.
+
+Cursor: Bạn có thể sử dụng thuộc tính cursor để thay đổi hình ảnh con trỏ của chuột khi 
+người dùng di chuột qua một liên kết. Ví dụ, bạn có thể thiết lập giá trị pointer để hiển
+ thị hình ảnh con trỏ như một chiếc tay trỏ khi di chuột qua liên kết.
+
+Display: Ngoài việc sử dụng thẻ <a> để tạo liên kết, bạn cũng có thể sử dụng thuộc
+ tính display để thay đổi cách thẻ <a> được hiển thị trên trang web. Ví dụ, bạn có thể thiết
+ lập giá trị block để hiển thị thẻ <a> như một khối hoặc giá trị inline để hiển thị thẻ <a> trên cùng một dòng với văn bản xung quanh.
