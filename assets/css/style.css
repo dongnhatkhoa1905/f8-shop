@@ -303,9 +303,6 @@
     display: flex;
 }
 
-.modal__inner {
-    
-}
 
 .modal__overlay {
     position: absolute;
@@ -420,7 +417,6 @@
 
 .btn--with-icon {
     display: flex;
-    
     width: 49%;
     padding: 2px 0;
     border-radius: 3px;
@@ -432,8 +428,7 @@
 
 .fa-square-facebook,
 .fa-google {
-    margin-left: 10px;
-    font-size: 25px;
+    
 }
 
 .btn--with-icon-left {
@@ -441,3 +436,51 @@
     color: #dbdbdb;
 }
 
+
+/* login form  */
+.auth-form-login__forget-password {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.auth-form-login__text-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #746363;
+}
+
+.auth-form-login__text-link::before {
+    position: absolute;
+    left: -5px;
+    display: inline-block;
+    content: "";
+    width: 1px;
+    height: 14px;
+    background: #746363;
+
+}
+
+
+.btn--with-icon-left__login {
+    display: flex;
+    gap: 20px;
+
+}
+
+.auth-form-login-social__icon  {
+    margin-left: 10px;
+}
+
+.btn--with-icon-left__login:nth-child(2) {
+    background-color: #4c40eb;
+    color: #fff;
+}
+
+.btn--with-icon-left__login:nth-child(1) {
+    display: flex;
+    gap: 40px;
+    background-color: #31c91d;
+    color: #fff;
+}
